@@ -18,14 +18,14 @@
 
 ---
 
-## 🤔 项目介绍 [![](https://img.shields.io/badge/-项目介绍-FFFFFF.svg)](#项目介绍-)
+## 🤔 项目介绍 [![](https://img.shields.io/badge/-项目介绍-FFFFFF.svg)](#项目介绍)
 **iStoreOS** 目标是提供一个人人会用的路由兼轻 **NAS 系统** ，不管是作为路由还是 NAS，你都有相似的操作体验。
 
 > 😂如果您对当前项目有抵触心理，也欢迎您使用右侧项目😂👉👉👉[iStoreOS-Native](https://github.com/Kwonelee/iStoreOS-Native)
 
 > 使用此仓库必须设置机密token，Actions云构建固件时需要用到，通常在仓库设置里面。机密键名为 `GH_TOKEN`（严禁在仓库可视代码中填写，否则后果自负）
 
-## 😅 第三方插件 [![](https://img.shields.io/badge/-第三方插件-FFFFFF.svg)](#第三方插件-)
+## 😅 第三方插件 [![](https://img.shields.io/badge/-第三方插件-FFFFFF.svg)](#第三方插件)
 | 插件                     | 状态 | 插件                     | 状态  | 插件                   | 状态   |
 |:------------------------:|:----:|:------------------------:|:-----:|:------------------------:|:----:|
 | ramfree释放内存          | ✅   | openlist2                | ✅    | FileBrowser文件浏览器    | ⏳    |
@@ -34,7 +34,7 @@
 
 ✅ 支持 ； ⏳ 计划中 ； ❌ 不支持
 
-## 😊 支持设备 [![](https://img.shields.io/badge/-支持设备-FFFFFF.svg)](#支持设备-)
+## 😊 支持设备 [![](https://img.shields.io/badge/-支持设备-FFFFFF.svg)](#支持设备)
 | 芯片     | 设备 |
 |----------|------|
 | a311d    | Khadas-VIM3, WXY-OES |
@@ -62,7 +62,7 @@
 | rk3318   | RX3318-Box |
 | h6       | Vplus, Tanix-TX6, TQC-A01 |
 
-## 🤗 项目截图 [![](https://img.shields.io/badge/-项目截图-FFFFFF.svg)](#项目截图-)
+## 🤗 项目截图 [![](https://img.shields.io/badge/-项目截图-FFFFFF.svg)](#项目截图)
 ![screenshots](./files/screenshot/screenshot1.png)
 
 ## 🌟 Star戳一戳，好运加满！😆
@@ -75,7 +75,7 @@
 - [istoreos-builder](https://github.com/wukongdaily/istoreos-builder)
 - [amlogic-s9xxx-openwrt](https://github.com/ophub/amlogic-s9xxx-openwrt)
 
-## ⚠️ 免责声明 [![](https://img.shields.io/badge/-免责声明-FFFFFF.svg)](#免责声明-)
+## ⚠️ 免责声明 [![](https://img.shields.io/badge/-免责声明-FFFFFF.svg)](#免责声明)
 - 📚 本固件仅供学习研究，严禁用于任何商业用途
 - 🤝 使用本固件产生的所有后果均由使用者自行承担
 - ⚠️ 固件仍可能存在缺陷，开发者不提供任何形式的技术支持
