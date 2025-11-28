@@ -1,24 +1,44 @@
-# iStoreOS-Actions
+<div align="center">
+  <img width="768" src="https://cdn.jsdelivr.net/gh/haiibo/OpenWrt/images/openwrt.png"/>
+  <h1>iStoreOS — 基于ImageBuilder与OpHub打包工具的简易固件</h1>
 
-# 🤔Introduce
-> **To You, Who Have Been Searching for the iStoreOS Firmware All These Years!!!**
+  <img src="https://img.shields.io/github/downloads/Kwonelee/iStoreOS-Actions/total.svg?style=for-the-badge&color=32C955"/>
+  <img src="https://img.shields.io/github/stars/Kwonelee/iStoreOS-Actions.svg?style=for-the-badge&color=orange"/>
+  <img src="https://img.shields.io/github/forks/Kwonelee/iStoreOS-Actions.svg?style=for-the-badge&color=ff69b4"/>
+  <img src="https://img.shields.io/github/license/Kwonelee/iStoreOS-Actions.svg?style=for-the-badge&color=blueviolet"/>
 
-> **To All Who Are Frustrated Because Your Initial IP Doesn’t Match the Current Network Environment, Causing Login Failures!!!**
+  [![](https://img.shields.io/badge/-目录:-696969.svg)](#readme) 
+  [![](https://img.shields.io/badge/-项目介绍-FFFFFF.svg)](#项目介绍) 
+  [![](https://img.shields.io/badge/-第三方插件-FFFFFF.svg)](#第三方插件)
+  [![](https://img.shields.io/badge/-支持设备-FFFFFF.svg)](#支持设备)
+  [![](https://img.shields.io/badge/-项目截图-FFFFFF.svg)](#项目截图)
+  [![](https://img.shields.io/badge/-Thanks-FFFFFF.svg)](#Thanks)
+  [![](https://img.shields.io/badge/-免责声明-FFFFFF.svg)](#免责声明)
+</div>
 
-> **😂如果您对当前项目有抵触心理，也欢迎您使用这个项目😂👉👉👉[iStoreOS-Native](https://github.com/Kwonelee/iStoreOS-Native)**
+---
+
+## 🤔 项目介绍 [![](https://img.shields.io/badge/-项目介绍-FFFFFF.svg)](#项目介绍-)
+**iStoreOS** 目标是提供一个人人会用的路由兼轻 **NAS 系统** ，不管是作为路由还是 NAS，你都有相似的操作体验。
+
+> **😂如果您对当前项目有抵触心理，也欢迎您使用右侧项目😂👉👉👉[iStoreOS-Native](https://github.com/Kwonelee/iStoreOS-Native)**
 
 > **使用此仓库必须设置机密token，Actions云构建固件时需要用到，通常在仓库设置里面。机密键名为 `GH_TOKEN`（严禁在仓库可视代码中填写，否则后果自负）**
 
-# 😅Built-in package plan
-| 插件                     | 状态 | 插件                      | 状态  | 插件                    | 状态  |
+---
+
+## 😅 第三方插件 [![](https://img.shields.io/badge/-第三方插件-FFFFFF.svg)](#第三方插件-)
+| 插件                     | 状态 | 插件                     | 状态  | 插件                   | 状态   |
 |:------------------------:|:----:|:------------------------:|:-----:|:------------------------:|:----:|
-| ramfree释放内存           | ✅   | openlist2                | ✅   | FileBrowser文件浏览器     | ⏳   |
-| adguardhome              | ✅   | lucky                    | ⏳   | luci-app-amlogic         | ✅   |
-| 其他                     | ⏳   |                          |       |                          |       |
+| ramfree释放内存          | ✅   | openlist2                | ✅    | FileBrowser文件浏览器    | ⏳    |
+| adguardhome              | ✅   | lucky                    | ⏳     | luci-app-amlogic         | ✅   |
+| 其他                     | ⏳    |                          |       |                          |      |
 
 ✅ 支持 ； ⏳ 计划中 ； ❌ 不支持
 
-# 😊Supported devices
+---
+
+## 😊 支持设备 [![](https://img.shields.io/badge/-支持设备-FFFFFF.svg)](#支持设备-)
 | 芯片     | 设备 |
 |----------|------|
 | a311d    | Khadas-VIM3, WXY-OES |
@@ -46,21 +66,29 @@
 | rk3318   | RX3318-Box |
 | h6       | Vplus, Tanix-TX6, TQC-A01 |
 
-# 🤗Screenshot
+---
+
+## 🤗 项目截图 [![](https://img.shields.io/badge/-项目截图-FFFFFF.svg)](#项目截图-)
 ![screenshots](./files/screenshot/screenshot1.png)
 
-# 🌟Star戳一戳，好运加满！😆
+---
+
+## 🌟 Star戳一戳，好运加满！😆
 > **"点过 `Star` 的朋友，颜值与智慧双双在线！✨"**
 
 > **"您的每一个⭐️，都是开源土壤里的一缕阳光，让灵感发芽，让创造生长~"**
 
-# 🙏Thanks
+## 🙏 Thanks [![](https://img.shields.io/badge/-Thanks-FFFFFF.svg)](#Thanks-)
 - [istoreos](https://github.com/istoreos/istoreos)
 - [istoreos-builder](https://github.com/wukongdaily/istoreos-builder)
 - [amlogic-s9xxx-openwrt](https://github.com/ophub/amlogic-s9xxx-openwrt)
 
-# ⚠️免责声明
-- 📚 本固件仅供学习研究，严禁用于任何商业用途；
-- 🤝 使用本固件产生的所有后果均由使用者自行承担；
-- ⚠️ 固件仍可能存在缺陷，开发者不提供任何形式的技术支持；
-- 📜 请严格遵守国家网络安全法律法规，合法使用。
+## ⚠️ 免责声明 [![](https://img.shields.io/badge/-免责声明-FFFFFF.svg)](#免责声明-)
+- 📚 本固件仅供学习研究，严禁用于任何商业用途
+- 🤝 使用本固件产生的所有后果均由使用者自行承担
+- ⚠️ 固件仍可能存在缺陷，开发者不提供任何形式的技术支持
+- 📜 请严格遵守国家网络安全法律法规，合法使用
+
+<a href="#readme">
+<img src="https://img.shields.io/badge/-返回顶部-FFFFFF.svg" title="返回顶部" align="right"/>
+</a>
