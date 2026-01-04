@@ -3,10 +3,14 @@ on:
   repository_dispatch:
   workflow_dispatch:
     inputs:
-      openwrt_board:
-        description: "请选择设备型号"
+      istoreOS_sub_version:
+        description: "istoreOS小版本"
         required: true
-        default: "s905d_s905x3_s912_s922x-ct2000"
+        default: '20251205'
+      openwrt_board:
+        description: "请选择设备型号（默认当前常见设备）"
+        required: true
+        default: "wxy-oect"
         type: choice
         options:
           - a311d-oes_s922x-oes-plus_wxy-oect
