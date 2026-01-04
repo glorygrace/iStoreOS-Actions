@@ -2,17 +2,10 @@ name: 💿 St1_Build-Rootfs-release
 on:
   workflow_dispatch:
     inputs:
-      build_version:
-        description: "请选择构建版本"
+      url_istoreos_imagebuilder:
+        description: "istoreos-imagebuilder下载地址"
         required: true
-        default: '20251231'
-        type: choice
-        options:
-          - '20251231'
-          - '20251226'
-          - '20251205'
-          - '20251128'
-          - '20251121'
+        default: 'https://fw0.koolcenter.com/iStoreOS/ib/armsr/istoreos-imagebuilder-armsr-armv8.Linux-x86_64.tar.zst'
       network_settings:
         description: "请选择初始网络配置"
         required: true
