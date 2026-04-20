@@ -12,5 +12,5 @@ jobs:
         uses: igorjs/gh-actions-clean-workflow@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          keep: 5  # 保留最近100条记录
+          keep: 1  # 保留最近100条记录
           # dry_run: true  # 建议先开启试运行
