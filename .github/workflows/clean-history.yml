@@ -1,4 +1,4 @@
-name: Cleanup Workflow History
+name: 💿 Cleanup Workflow History
 on:
   schedule:
     - cron: '0 0 * * 0'  # 每周日零点运行
