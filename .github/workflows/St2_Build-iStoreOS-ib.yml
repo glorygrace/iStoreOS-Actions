@@ -6,7 +6,7 @@ on:
       istoreOS_sub_version:
         description: "istoreOS小版本"
         required: true
-        default: '20260410'
+        default: '20260417'
       openwrt_board:
         description: "请选择设备型号（默认当前常见设备）"
         required: true
