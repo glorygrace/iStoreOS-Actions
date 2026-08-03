@@ -6,7 +6,7 @@ on:
       istoreOS_sub_version:
         description: "istoreOS小版本"
         required: true
-        default: '20260703'
+        default: '20260731'
       openwrt_board:
         description: "请选择设备型号（默认当前常见设备）"
         required: true
@@ -244,7 +244,7 @@ on:
           - dhcp
 
 env:
-  VERSION: 24.10.7
+  VERSION: 24.10.8
 
 jobs:
   build:
