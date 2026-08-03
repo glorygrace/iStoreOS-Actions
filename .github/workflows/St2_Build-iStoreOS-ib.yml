@@ -281,7 +281,7 @@ jobs:
           auto_kernel: ${{ inputs.auto_kernel }}
           kernel_repo: ophub/kernel
           kernel_usage: stable
-          builder_name: kwonelee
+          builder_name: ophub
 
       - name: 📜 调整.img.gz 文件名
         id: rename
